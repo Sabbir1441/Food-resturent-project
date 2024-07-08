@@ -170,11 +170,21 @@ opacity: 0.7;
 
 
 .section{
+    width: 1920px;
+    height: 613px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: dotted;
+    margin: 0  auto;
+    margin-bottom: 200px;
+
 }
-.imge{
+.imge img{
     width: 960px;
-    height: 671px;
+    height: 613px;
+    margin: 0;
 }
 .last{
     width: 830px;
@@ -183,6 +193,7 @@ opacity: 0.7;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .last .last-title{
     color: rgb(16, 16, 16);
